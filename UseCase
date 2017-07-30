@@ -1,0 +1,29 @@
+1, login/logout
+  a, username login
+  b, email login
+  c, facebook login
+  d, register (username/email)
+  e, logout
+2, profile
+  a, user status (call/available/unavailable)
+  b, user info
+    i, locale
+    ii, location
+    iii, age
+    iv, gender
+    v, self-intro
+    vi, nickname
+3, filter system (backend)
+  a, filter users with no filtering items
+  b, filter users with filtering items
+  c, filter users with no filtering items and current display users
+  d, filter users with filtering items and current display users
+4, display the filtering result (frontend)
+  a, display the users' information
+  b, refresh
+  c, find more
+5, call
+  a, send a calling request
+  b, accept/reject a calling request
+  c, build the call connection
+  d, end a call
